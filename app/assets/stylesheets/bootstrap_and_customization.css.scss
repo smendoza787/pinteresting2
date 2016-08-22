@@ -1,5 +1,19 @@
-$body-bg:		#E8E8E8;
-$navbar-default-bg: #5588A3;
-$navbar-default-link-color: white;
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+
+$body-bg:															#E8E8E8;
+$font-family-sans-serif: 'Oxygen', sans-serif;
+$navbar-height: 												 45px;
+$navbar-default-bg: 									#5588A3;
+$navbar-default-link-color: 						white;
+$btn-success-bg: 											#00334E;
+$navbar-default-brand-color: 					#00334E;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
