@@ -1,12 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Oxygen);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 
-$body-bg:															#E8E8E8;
-$font-family-sans-serif: 'Oxygen', sans-serif;
-$navbar-height: 												 45px;
-$navbar-default-bg: 									#5588A3;
-$navbar-default-link-color: 						white;
-$btn-success-bg: 											#00334E;
-$navbar-default-brand-color: 					#00334E;
+$body-bg:					 		#E8E8E8;
+$font-family-sans-serif: 'Droid Serif', sans-serif;
+$navbar-height:     					 45px;
+$navbar-default-bg: 					white;
+$navbar-default-link-color: 			black;
+$btn-success-bg: 			    		#B21316;
+$navbar-default-brand-color: 			#B21316;
 
 @import 'bootstrap';
 
@@ -16,4 +16,8 @@ $navbar-default-brand-color: 					#00334E;
 
 .navbar-brand {
 	font-weight: bold;
+}
+
+.thin {
+  font-weight: 400;
 }
